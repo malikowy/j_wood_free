@@ -1,0 +1,8 @@
+menu light 24px
+logo text bold i light 60px
+scroll bold 18px
+about me regular 60px
+paragraph opensans light 24px
+portfolio nexlight 60px 
+social, phone, mail nexabold 30px
+number and mail address nexalight 60px

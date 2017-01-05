@@ -1,0 +1,81 @@
+$logo: "../img/header-bg.png";
+$works: "../img/portfolio-bg.png";
+$color-pink: #ffc0cb;
+$color-white: #ffffff;
+
+main {
+    margin-top: -60px;
+    text-align: center;
+}
+
+.down-arrow {
+    padding-bottom: 20px;
+
+    .down-arrow__text {
+        color: $color-pink;
+    }
+
+    .down-arrow_img {
+        width: 20vw;
+    }
+}
+
+.home {
+    background-image   : url($logo);
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    text-align         : center;
+
+    .home-container {
+        .logo {
+            width      : 30vw;
+            padding-top: 22vw;
+        }
+
+        h1 {
+            color    : $color-white;
+            font-size: 1.25em;
+        }
+    }
+}
+
+.about {
+    .about-container {
+        padding: 50px 20px 0;
+
+        .about-container__text {
+            text-align: justify;
+        }
+
+        .about-container__myphoto {
+            display: none;
+        }
+    }
+}
+
+.works {
+    background-image   : url($works);
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+
+    .works-container {
+        padding: 50px 20px 0;
+
+        h2 {
+            color: $color-white;
+        }
+
+        .works-container_gallery {
+            .works-container_gallery__img {
+                width : 28vw;
+                margin: 7px;
+            }
+        }
+    }
+}
+
+.footer {
+    padding: 50px 20px 0;
+}

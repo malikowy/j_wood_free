@@ -1,0 +1,48 @@
+main {
+  margin-top: -60px;
+  text-align: center; }
+
+.down-arrow {
+  padding-bottom: 20px; }
+  .down-arrow .down-arrow__text {
+    color: #ffc0cb; }
+  .down-arrow .down-arrow_img {
+    width: 20vw; }
+
+.home {
+  background-image: url("../img/header-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; }
+  .home .home-container .logo {
+    width: 30vw;
+    padding-top: 22vw; }
+  .home .home-container h1 {
+    color: #ffffff;
+    font-size: 1.25em; }
+
+.about .about-container {
+  padding: 50px 20px 0; }
+  .about .about-container .about-container__text {
+    text-align: justify; }
+  .about .about-container .about-container__myphoto {
+    display: none; }
+
+.works {
+  background-image: url("../img/portfolio-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .works .works-container {
+    padding: 50px 20px 0; }
+    .works .works-container h2 {
+      color: #ffffff; }
+    .works .works-container .works-container_gallery .works-container_gallery__img {
+      width: 28vw;
+      margin: 7px; }
+
+.footer {
+  padding: 50px 20px 0; }
+
+/*# sourceMappingURL=style.css.map */

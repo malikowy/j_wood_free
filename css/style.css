@@ -136,7 +136,8 @@ main {
       font-family: 'nexa_lightregular'; }
 
   .about .down-arrow {
-    padding-top: 80px; }
+    padding-top: 80px;
+    clear: both; }
   .about .about-container {
     padding: 50px 20px 0; }
     .about .about-container .about-container__info {

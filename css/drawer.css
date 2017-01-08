@@ -371,7 +371,10 @@
     .drawer-navbar {
         height: 3.75rem;
         border-bottom: 1px solid #ddd;
-        background-color: #fff;
+        background-color: transparent;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .drawer-navbar .drawer-navbar-header {
         position: relative;
@@ -387,10 +390,15 @@
     .drawer-navbar .drawer-menu li {
         float: left;
     }
+    /* menu desktop item */
     .drawer-navbar .drawer-menu-item {
         line-height: 3.75rem;
         padding-top: 0;
         padding-bottom: 0;
+        color: #bebebe;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 0 22px;
     }
     .drawer-navbar .drawer-hamburger {
         display: none;
@@ -404,6 +412,7 @@
         padding-top: 0;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
+        background: transparent;
     }
     .drawer-navbar .drawer-menu {
         padding: 0;
@@ -501,12 +510,12 @@
 
 @media (min-width: 64em) {
     .drawer-container {
-        max-width: 22rem;
+        max-width: 36rem;
     }
 }
 
 @media (min-width: 75em) {
     .drawer-container {
-        max-width: 22rem;
+        max-width: 36rem;
     }
 }
